@@ -1,0 +1,2640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ounet.thaiidioms.Thai2Activity"
+    android:background="@drawable/b">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:background="@drawable/zu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ก."
+            android:id="@+id/textView4"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เก็บเบี้ยใต้ถุนร้าน หมายถึง เก็บเล็กผสมน้อย โน่นบ้างนี่บ้าง จนสําเร็จเป็นรูปเป็นร่างขึ้นมา"
+            android:id="@+id/textView5"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เก็บเล็กผสมน้อย หมายถึง เก็บไว้ทีละเล็กละน้อย"
+            android:id="@+id/textView6"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เก็บหอมรอมริบ หมายถึง เก็บรวบรวมไว้ทีละเล็กละน้อย"
+            android:id="@+id/textView7"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เกลียดตัวกินไข่ เกลียดปลาไหลกินน้ำแกง หมายถึง เกลียดตัวเขาแต่อยากได้ผลประโยชน์จากเขา"
+            android:id="@+id/textView8"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เกลือเป็นหนอน หมายถึง ญาติมิตร สามีภรรยา บุตรธิดา เพื่อนร่วมงาน หรือคนในบ้าน คิดคดทรยศ ไส้เป็นหนอน ก็ว่า"
+            android:id="@+id/textView9"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เกลือจิ้มเกลือ หมายถึง ไม่ยอมเสียเปรียบกัน แก้เผ็ดให้สาสมกัน"
+            android:id="@+id/textView10"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เกี่ยวแฝกมุงป่า หมายถึง ทําอะไรเกินกําลังความสามารถของตัว"
+            android:id="@+id/textView12"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แกงจืดจึงรู้คุณเกลือ หมายถึง จะรู้ค่าของบางสิ่งก็ต่อเมื่อเดือดร้อน"
+            android:id="@+id/textView13"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แกว่งเท้าหาเสี้ยน หมายถึง ข้าไปยุ่งกับเรื่องของผู้อื่นจนเกิดเป็นเรื่องกลับมาที่ตัวเอง"
+            android:id="@+id/textView14"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ข."
+            android:id="@+id/textView11"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เข้าเถื่อนอย่าลืมพร้า หมายถึง ให้มีสติอย่าประมาท"
+            android:id="@+id/textView15"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เข้าเมืองตาหลิ่ว ต้องหลิ่วตาตาม หมายถึง ประพฤติตนให้เหมาะสมกับกาลเทศะ"
+            android:id="@+id/textView16"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เข้ากันเป็นปี่เป็นขลุ่ย หมายถึง ถูกคอกัน, เข้ากันได้ดี"
+            android:id="@+id/textView17"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เข้าด้ายเข้าเข็ม หมายถึง คับขัน, สำคัญ"
+            android:id="@+id/textView18"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เข้าตาจน หมายถึง หมดทางไป หมดทางที่จะแก้ไข หมดหนทางหากิน."
+            android:id="@+id/textView19"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เข้าตามตรอก ออกทางประตู หมายถึง การทำตามธรรมเนียมประเพณี"
+            android:id="@+id/textView20"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เข้าฝูงหงส์เป็นหงส์ เข้าฝูงกาเป็นกา หมายถึง อยู่ในที่แบบไหน ก็ทำตัวเป็นเช่นนั้น"
+            android:id="@+id/textView21"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เข้าหูซ้ายทะลุหูขวา หมายถึง บอกหรือสอนไม่ได้ผล"
+            android:id="@+id/textView22"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เขียนเสือให้วัวกลัว หมายถึง ทำอย่างใดอย่างหนึ่งเพื่อให้อีกฝ่ายหนึ่งเสียขวัญหรือเกรงขาม"
+            android:id="@+id/textView23"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เขียนด้วยมือลบด้วยเท้า หมายถึง ทำดีแต่แรก แล้วมาทำเสียตอนหลัง"
+            android:id="@+id/textView24"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ค."
+            android:id="@+id/textView25"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เค็มอย่างเกลือ หมายถึง เป็นคนจริง มีความมั่นคง"
+            android:id="@+id/textView26"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เคราะห์หามยามร้าย หมายถึง เคราะห์ร้าย"
+            android:id="@+id/textView27"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="โคแก่ชอบกินหญ้าอ่อน หมายถึง ชายสูงอายุที่ชอบผู้หญิงรุ่นสาว"
+            android:id="@+id/textView28"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ใครมือยาวสาวได้สาวเอา หมายถึง ต่างคนต่างฉวยโอกาส แสวงหาประโยชน์ใส่ตัวโดยไม่คิดถึงคนอื่น"
+            android:id="@+id/textView29"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="คงเส้นคงวา หมายถึง เสมอต้นเสมอปลาย"
+            android:id="@+id/textView30"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="คดในข้องอในกระดูก หมายถึง มีสันดานคดโกง"
+            android:id="@+id/textView31"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="คนเดียวหัวหาย สองคนเพื่อนตาย หมายถึง เมื่อต้องทำอะไรที่มีความเสี่ยง ทำสองคนย่อมดีกว่าคนเดียว"
+            android:id="@+id/textView32"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="คนดีผีคุ้ม หมายถึง คนทำดีย่อมไม่มีภัย"
+            android:id="@+id/textView33"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="คนตายขายคนเป็น หมายถึง คนตายที่มีหนี้หรือภาระมาก คนยังอยู่ต้องรับผิดชอบแทน"
+            android:id="@+id/textView34"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="คนล้มอย่าข้าม หมายถึง อย่าดูถูกหรือซ้ำเติมคนที่พลาดพลั้งเผลอ"
+            android:id="@+id/textView35"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ฆ."
+            android:id="@+id/textView36"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฆ้องปากแตก หมายถึง ปากโป้ง, เก็บความลับไม่อยู่, ชอบนำความลับของผู้อื่นไปโพนทะนา"
+            android:id="@+id/textView37"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฆ่าไม่ตายขายไม่ขาด หมายถึง ตัดเยื่อใยไม่ขาด"
+            android:id="@+id/textView38"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฆ่าควายอย่าเสียดายพริก หมายถึง ทำการใหญ่ไม่ควรตระหนี่"
+            android:id="@+id/textView39"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฆ่าช้างเอางา หมายถึง ทำลายของใหญ่เพื่อให้ได้ของเล็กน้อยซึ่งไม่คุ้มค่ากัน"
+            android:id="@+id/textView40"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ง."
+            android:id="@+id/textView41"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เงียบเป็นเป่าสาก หมายถึง ลักษณะที่เงียบสนิท"
+            android:id="@+id/textView42"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="โง่เง่าเต่าตุ่น หมายถึง โง่ที่สุด"
+            android:id="@+id/textView43"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="โง่แล้วอยากนอนเตียง หมายถึง โง่แล้วไม่เจียมตัวว่าโง่ ไปทำสิ่งที่ตนไม่รู้ไม่เข้าใจ"
+            android:id="@+id/textView44"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="งมเข็มในมหาสมุทร หมายถึง ทำกิจที่สำเร็จได้ยาก"
+            android:id="@+id/textView45"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="งอมืองอตีน หมายถึง เกียจคร้าน, ไม่สนใจขวนขวายทำการงาน"
+            android:id="@+id/textView46"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="งานหลวงไม่ให้ขาด งานราษฎร์ไม่ให้เสีย หมายถึง ทำงานไม่บกพร่องทั้งงานส่วนรวมและส่วนตัว"
+            android:id="@+id/textView47"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="งูกินหาง หมายถึง เกี่ยวโยงกันไปเป็นทอดๆ"
+            android:id="@+id/textView48"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="งูๆปลาๆ หมายถึง รูบ้างเล็กน้อย ไม่ได้รู้จริงในเรื่องนั้น"
+            android:id="@+id/textView49"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด จ."
+            android:id="@+id/textView50"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เจ้าชู้ประตูดิน หมายถึง เจ้าชู้มาก จีบได้ไม่เลือกหน้า"
+            android:id="@+id/textView51"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แจงสี่เบี้ย หมายถึง อธิบายละเอียดชัดแจ้ง"
+            android:id="@+id/textView52"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ใจจืดใจดำ หมายถึง ไร้น้ำใจ ไม่เอื้อเฟื้อแก่คนอื่น"
+            android:id="@+id/textView53"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ใจซื่อมือสะอาด หมายถึง ดำรงอยู่ในทางที่ชอบ ไม่เอนเอียง"
+            android:id="@+id/textView54"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ใจดีสู้เสือ หมายถึง บังคับใจให้กล้าเมื่อพบอันตราย"
+            android:id="@+id/textView55"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ใจปลาซิว หมายถึง ใจไม่สู้ ยอมแพ้ง่าย"
+            android:id="@+id/textView56"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="จระเข้ขวางคลอง หมายถึง ทำอะไรขัดขวางผู้อื่น"
+            android:id="@+id/textView57"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="จับเสือมือเปล่า หมายถึง แสวงหาประโยชน์โดยตัวเองไม่ต้องลงทุน"
+            android:id="@+id/textView58"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="จับแพะชนแกะ หมายถึง ทำอย่างขอไปที ไม่ได้อย่างนี้ก็เอาอย่างนั้นเข้าแทนเพื่อให้ลุล่วงไป"
+            android:id="@+id/textView59"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="จับให้มั่นคั้นให้ตาย หมายถึง จะจับผิดใครต้องมีหลักฐานแน่ชัด"
+            android:id="@+id/textView60"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ฉ."
+            android:id="@+id/textView61"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฉลาดแกมโกง หมายถึง ฉลาดในทางทุจริต ทางไม่ดี"
+            android:id="@+id/textView62"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฉ้อราษฎร์บังหลวง หมายถึง การที่เจ้าหน้าที่เก็บเงินจากราษฎรแล้วไม่ส่งหลวงหรือเบียดบังเงินหลวง"
+            android:id="@+id/textView63"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฉิ่งเสียงแตก หมายถึง ปากไม่ดี เก็บความลับไม่อยู่"
+            android:id="@+id/textView64"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ช."
+            android:id="@+id/textView65"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เชือดคอไก่ให้ลิงดู หมายถึง การลงโทษให้ดูเป็นตัวอย่าง"
+            android:id="@+id/textView66"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แช่งชักหักกระดูก หมายถึง แช่งด่ามุ่งร้ายให้ผู้อื่นได้รับอันตรายอย่างร้ายแรง"
+            android:id="@+id/textView67"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ใช้ไม้แข็ง หมายถึง การใช้วิธีการที่หนักและรุนแรง"
+            android:id="@+id/textView68"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ใช้ไม้นวม หมายถึง ใช้วิธีที่นุ่มนวล ประนีประนอม"
+            android:id="@+id/textView69"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ใช้น้ำเย็นเข้าลูบ หมายถึง พูดจาโลมเล้าหว่ายล้อมเพื่อให้ใจอ่อน"
+            android:id="@+id/textView70"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ชักแม่น้ำทั้งห้า หมายถึง พูดจาหว่านล้อมยกยอบุญคุณเพื่อขอสิ่งที่ประสงค์"
+            android:id="@+id/textView71"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ชักใบให้เรือเสีย หมายถึง พูดหรือทำขวางๆ ให้การสนทนาหรือการงานเขวออกนอกเรื่องไป"
+            android:id="@+id/textView72"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ชักใย หมายถึง บงการอยู่เบื้องหลัง"
+            android:id="@+id/textView73"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ชักน้ำเข้าลึก ชักศึกเข้าบ้าน หมายถึง ชักนำศัตรูเข้าบ้าน"
+            android:id="@+id/textView74"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ชักหน้าไม่ถึงหลัง หมายถึง มีรายได้ไม่พอกับรายจ่าย"
+            android:id="@+id/textView75"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ซ."
+            android:id="@+id/textView76"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ซื่อกินไม่หมด คดกินไม่นาน หมายถึง ความซื่อสัตย์นั้นกินใช้ไม่มีวันหมด มีกินได้เรื่อยๆ"
+            android:id="@+id/textView77"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ซื้อควายหน้านา ซื้อผ้าหน้าตรุษ หมายถึง ซื้อของโดยไม่คำนึงถึงช่วงเวลา ย่อมได้ของแพงกว่าปกติ"
+            android:id="@+id/textView78"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ซื้อง่ายขายคล่อง หมายถึง การค้าเจริญงอกงาม"
+            android:id="@+id/textView79"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ฒ."
+            android:id="@+id/textView80"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เฒ่าหัวงู หมายถึง คนแก่หรือคนมีอายุมากที่มีเล่ห์เหลี่ยมหรือกลอุบายหลอกเด็กผู้หญิงในทางกามารมณ์"
+            android:id="@+id/textView81"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ด."
+            android:id="@+id/textView82"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เด็กเลี้ยงแกะ หมายถึง คนชอบพูดโกหกจนไม่มีใครเชื่อถือ"
+            android:id="@+id/textView83"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เด็ดดอกฟ้า หมายถึง การเอาหญิงที่ถือว่ามีฐานะสูงศักดิ์กว่ามาเป็นภรรยา"
+            android:id="@+id/textView84"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เด็ดบัวไม่ไว้ใย หมายถึง ตัดขาด, ตัดญาติขาดมิตรกันเด็ดขาด"
+            android:id="@+id/textView85"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เดินตามหลังผู้ใหญ่หมาไม่กัด หมายถึง การประพฤติตามแบบอย่างผู้ใหญ่ย่อมปลอดภัย"
+            android:id="@+id/textView86"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ได้แกงเทน้ำพริก หมายถึง ลืมของเก่าเมื่อได้ขอใหม่"
+            android:id="@+id/textView87"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ได้ใหม่ลืมเก่า หมายถึง พอได้สิ่งใหม่แล้วลืมสิ่งเก่า"
+            android:id="@+id/textView88"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ได้ทีขี่แพะไล่ หมายถึง ซ้ำเติมเมื่อผู้อื่นเพลี่ยงพล้ำลง"
+            android:id="@+id/textView89"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ได้หน้าได้ตา หมายถึง ได้เกียรติ, ได้ชื่อเสียง"
+            android:id="@+id/textView90"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ได้หน้าลืมหลัง หมายถึง หลงๆ ลืมๆ ได้สิ่งหนึ่งลืมสิ่งหนึ่ง"
+            android:id="@+id/textView91"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ดักลอบต้องหมั่นกู้ หมายถึง ทำอะไรก็ต้องติดตามผลงาน อย่าละเลย"
+            android:id="@+id/textView92"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ต."
+            android:id="@+id/textView93"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เต่าใหญ่ไข่กลบ หมายถึง การพยายามจะกลบเกลื่อนความผิดของตน"
+            android:id="@+id/textView94"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เตี้ยอุ้มค่อม หมายถึง คนที่มีฐานะต่ำต้อยหรือยากจน แต่รับภาระเลี้ยงดูคนที่มีฐานะเช่นตนอีก"
+            android:id="@+id/textView95"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ตกกระไดพลอยโจน หมายถึง จำเป็นที่จะต้องยอมเข้าไปเกี่ยวข้องกับเหตุการณ์ที่เกิดขึ้นเมื่อไม่มีทางเลี่ยง"
+            android:id="@+id/textView96"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ตกน้ำไม่ไหล ตกไฟไม่ไหม้ หมายถึง ตกอยู่ในที่คับขันอย่างไรก็ไม่เป็นอันตราย, ตกอยู่ที่ใดก็ไม่สูญหาย"
+            android:id="@+id/textView97"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ตนเป็นที่พึ่งเเห่งตน หมายถึง การทำอะไรด้วยตัวเอง แทนที่จะขอความช่วยเหลือจากผู้อื่น"
+            android:id="@+id/textView98"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ตบหัวกลางศาลา ขอขมาที่บ้าน หมายถึง ยอมรับผิดไม่สมกับความผิดที่ทําไว้"
+            android:id="@+id/textView99"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ต่อหน้ามะพลับ ลับหลังตะโก หมายถึง ต่อหน้าทำเป็นดี แต่พอลับหลังก็นินทาหรือหาทางทำร้าย"
+            android:id="@+id/textView100"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ตักน้ำใส่กระโหลก ชะโงกดูเงา หมายถึง ให้รู้จักฐานะของตนและเจียมตัว"
+            android:id="@+id/textView101"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ตักน้ำรดหัวตอ หมายถึง แนะนำพร่ำสอนเท่าไรก็ไม่ได้ผล"
+            android:id="@+id/textView102"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ตักบาตรอย่าถามพระ หมายถึง จะให้อะไรแก่ผู้ที่เต็มใจรับอยู่แล้วไม่ควรถาม"
+            android:id="@+id/textView103"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ถ."
+            android:id="@+id/textView104"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ถ่มน้ำลายขึ้นฟ้า รดหน้าตัวเอง หมายถึง การคิดร้ายหรือดูหมิ่นบุคคลที่สูงกว่า"
+            android:id="@+id/textView105"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ถวายหัว หมายถึง ทำจนสุดความสามารถ, ยอมสู้ตาย"
+            android:id="@+id/textView106"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ถอดเขี้ยวเล็บ หมายถึง การเลิกทำในสิ่งที่ไม่ค่อยดี"
+            android:id="@+id/textView107"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ถอนรากถอนโคน หมายถึง ทำลายให้ถึงต้นตอ, ทำลายให้สิ้นเสี้ยนหนาม"
+            android:id="@+id/textView108"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ถอนหงอก หมายถึง ไม่นับถือความเป็นผู้ใหญ่, พูดว่าให้เสียผู้ใหญ่"
+            android:id="@+id/textView109"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ถอยหลังเข้าคลอง หมายถึง หวนกลับไปหาแบบเดิม"
+            android:id="@+id/textView110"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ถ่านไฟเก่า หมายถึง ชายหญิงที่เคยรักใคร่หรือเคยได้เสียกันมาก่อน แม้เลิกร้างกันไป เมื่อมาพบกันใหม่ย่อมรักใคร่หรือปลงใจกันได้ง่ายขึ้น"
+            android:id="@+id/textView111"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ถี่ลอดตาช้าง ห่างลอดตาเล็น หมายถึง ดูเหมือนรอบคอบถี่ถ้วน แต่ไม่รอบคอบถี่ถ้วนจริง"
+            android:id="@+id/textView112"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ท."
+            android:id="@+id/textView113"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เทือกเถาเหล่ากอ หมายถึง เชื้อสายวงศ์ตระกูลที่สืบเนื่องต่อกันมา"
+            android:id="@+id/textView114"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แทงใจดำ หมายถึง พูดตรงกับความในใจของผู้ฟัง"
+            android:id="@+id/textView115"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ทรัพย์ในดิน สินในน้ำ หมายถึง สิ่งที่มีอยู่หรือเกิดตามธรรมชาติ อันอาจนำมาใช้ให้เป็นประโยชน์ได้"
+            android:id="@+id/textView116"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ทองแผ่นเดียวกัน หมายถึง เกี่ยวดองกันโดยการแต่งงาน"
+            android:id="@+id/textView117"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ทองไม่รู้ร้อน หมายถึง เฉยเมย, ไม่กระตือรือร้น, ไม่สะดุ้งสะเทือน"
+            android:id="@+id/textView118"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ท้องยุ้งพุงกระสอบ หมายถึง คนกินจุ"
+            android:id="@+id/textView119"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ท่าดีทีเหลว หมายถึง มีท่าทางดี แต่ทำอะไรไม่ได้เรื่อง"
+            android:id="@+id/textView120"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ทำคุณบูชาโทษโปรดสัตว์ได้บาป หมายถึง ทำคุณแต่กลับเป็นโทษ ทำดีแต่กลับเป็นร้าย"
+            android:id="@+id/textView121"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ทำดีได้ดีทำชั่วได้ชั่ว หมายถึง คนเราทำอย่างไรก็จะได้อย่างนั้น"
+            android:id="@+id/textView122"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ทำนาบนหลังคน หมายถึง หาผลประโยชน์ใส่ตนโดยขูดรีดผู้อื่น"
+            android:id="@+id/textView123"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ธ."
+            android:id="@+id/textView124"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ธรรมย่อมรักษาผู้ประพฤติธรรม หมายถึง คนที่ทำแต่กรรมดี ย่อมจะได้ประสบกับสิ่งดีๆ"
+            android:id="@+id/textView125"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด น."
+            android:id="@+id/textView126"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เนื้อเต่ายำเต่า หมายถึง นำเอาทรัพย์สินส่วนที่เป็นกำไรหรือดอกเบี้ยกลับไปลงทุนอีกครั้ง โดยไม่ต้องใช้ทุนเดิม"
+            android:id="@+id/textView127"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ในน้ำมีปลาในนามีข้าว หมายถึง ดินแดนที่มีความอุดมสมบูรณ์"
+            android:id="@+id/textView128"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="นกน้อยในกรงทอง หมายถึง มีความเพียบพร้อมแต่ขาดอิสระ"
+            android:id="@+id/textView129"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="นกสองหัว หมายถึง คนที่ทำตัวฝักใฝ่เข้าด้วยทั้ง 2 ฝ่ายที่ไม่เป็นมิตร โดยหวังประโยชน์เพื่อตน"
+            android:id="@+id/textView130"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="นอนหลับไม่รู้ นอนคู้ไม่เห็น หมายถึง ไม่รู้เรื่องราว, ไม่รู้อีโหน่อีเหน่"
+            android:id="@+id/textView131"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="นางนกต่อ หมายถึง หญิงที่ถูกใช้ให้ไปล่อคน (เหยื่อ) มาติดกับดัก"
+            android:id="@+id/textView132"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="น้ำท่วมทุ่ง ผักบุ้งโหรงเหรง หมายถึง พูดมากแต่ได้เนื้อหาสาระน้อย"
+            android:id="@+id/textView133"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="น้ำพึ่งเรือเสือพึ่งป่า หมายถึง การพึ่งพาอาศัยกัน, ความสามัคคี"
+            android:id="@+id/textView134"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="นายว่าขี้ข้าพลอย หมายถึง พลอยพูดผสมโรงติเตียนผู้อื่นตามนายไปด้วย"
+            android:id="@+id/textView135"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด บ."
+            android:id="@+id/textView136"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แบไต๋ หมายถึง ตีแผ่ บอกความลับให้คนอื่นรู้"
+            android:id="@+id/textView137"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="บ่นเป็นหมีกินผึ้ง หมายถึง คนที่ชอบบ่พึมพำอยู่เสมอ เห็นอะไรก็บ่นไปหมด"
+            android:id="@+id/textView138"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="บนบานศาลกล่าว หมายถึง ขอร้องให้สิ่งศักดิ์สิทธิ์ช่วยเหลือ"
+            android:id="@+id/textView139"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="บอกศาลา หมายถึง ตัดขาด ไม่นับว่ามีความสัมพันธ์ต่อกันอีกต่อไป"
+            android:id="@+id/textView140"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="บัวไม่ให้ช้ำ น้ำไม่ให้ขุ่น หมายถึง รู้จักผ่อนปรนเข้าหากัน มิให้กระทบกระเทือนใจกัน"
+            android:id="@+id/textView141"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="บ่างช่างยุ หมายถึง คนที่ชอบพูดส่อเสียดยุยงให้เขาแตกกัน"
+            android:id="@+id/textView142"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="บ้านเคยอยู่ อู่เคยนอน หมายถึง สถานที่ตนเคยอยู่อาศัยมาก่อน"
+            android:id="@+id/textView143"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="บ้านเมืองมีขื่อมีแป หมายถึง บ้านเมืองหรือประเทศย่อมมีกฎหมายคุ้มครอง"
+            android:id="@+id/textView144"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="บ้านแตกสาแหรกขาด หมายถึง ครอบครัวหรือบ้านเมืองต้องกระจัดกระจายพลัดพรากกัน"
+            android:id="@+id/textView145"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="บานปลาย หมายถึง ขยายออกไปมากกว่าที่ตั้งใจไว้เดิม"
+            android:id="@+id/textView146"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ป."
+            android:id="@+id/textView147"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เป็ดขันประชันไก่ หมายถึง มีความรู้ความสามารถน้อย แต่อวดตัวแข่งกับผู้ที่มีความรู้ความสามารถสูง"
+            android:id="@+id/textView148"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เป็นปี่เป็นขลุ่ย หมายถึง ถูกคอกัน, เข้ากันได้ดี"
+            android:id="@+id/textView149"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ปล่อยเสือเข้าป่า ปล่อยปลาลงน้ำ หมายถึง ปล่อยศัตรูไปอาจกลับมาทำร้ายภายหลังอีก"
+            android:id="@+id/textView150"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ปล่อยไก่ หมายถึง แสดงความโง่ออกมา"
+            android:id="@+id/textView151"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ปลาใหญ่กินปลาเล็ก หมายถึง คนหรือผู้ใหญ่ที่มีอำนาจ กดขี่ข่มเหงผู้อ่อนแอหรือผู้น้อย"
+            android:id="@+id/textView152"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ปลาข้องเดียวกัน หมายถึง คนที่อยู่ร่วมกันหรือเป็นพวกเดียวกัน"
+            android:id="@+id/textView153"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ปลาหมอตายเพราะปาก หมายถึง คนที่พูดพล่อยจนได้รับอันตราย"
+            android:id="@+id/textView154"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ปล้ำผีลุก ปลุกผีนั่ง หมายถึง พยายามทำให้เกิดเรื่องราวที่ไม่ดีขึ้นมา"
+            android:id="@+id/textView155"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ปลุกผีกลางคลอง หมายถึง ทำในสิ่งที่ไม่ถูกไม่ควร"
+            android:id="@+id/textView156"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ปลูกเรือนคร่อมตอ หมายถึง กระทำสิ่งซึ่งล่วงล้ำ ก้าวก่ายสิทธิของผู้อื่น"
+            android:id="@+id/textView157"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ผ."
+            android:id="@+id/textView158"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แผลเก่า หมายถึง ความเจ็บช้ำที่ฝังใจอยู่ไม่รู้ลืม"
+            android:id="@+id/textView159"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไผ่ลู่ลม หมายถึง โอนอ่อนไปตามสถานการณ์"
+            android:id="@+id/textView160"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ผักชีโรยหน้า หมายถึง การทำความดีเพียงผิวเผิน"
+            android:id="@+id/textView161"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ผัดวันประกันพรุ่ง หมายถึง ขอเลื่อนเวลาออกไปครั้งแล้วครั้งเล่า"
+            android:id="@+id/textView162"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ผัวหาบเมียคอน หมายถึง ช่วยกันทำมาหากินทั้งผัวทั้งเมีย"
+            android:id="@+id/textView163"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ผ้าขี้ริ้วห่อทอง หมายถึง คนมั่งมีแต่แต่งตัวซอมซ่อ"
+            android:id="@+id/textView164"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ผีไม่มีศาล หมายถึง ไม่มีที่อยู่เป็นหลักแหล่ง"
+            android:id="@+id/textView165"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ผีซ้ำด้ำพลอย หมายถึง ถูกซ้ำเติมเมื่อพลาดพลั้งลง หรือเมื่อคราวเคราะห์ร้าย"
+            android:id="@+id/textView166"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ผึ้งแตกรัง หมายถึง ไปคนละทิศละทาง"
+            android:id="@+id/textView167"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ผู้ร้ายปากแข็ง หมายถึง ดึงดัน ดื้อ ไม่ยอมรับความจริง"
+            android:id="@+id/textView168"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ฝ."
+            android:id="@+id/textView169"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ใฝ่สูงจนเกินศักดิ์ หมายถึง หวังสิ่งที่เกินฐานะของตน"
+            android:id="@+id/textView170"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฝนตกไม่ทั่วฟ้า หมายถึง แจกจ่ายของไม่ทั่วถึงกัน"
+            android:id="@+id/textView171"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฝนตกขี้หมูไหล หมายถึง พลอยเหลวไหลไปด้วยกัน"
+            android:id="@+id/textView172"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฝนตกอย่าเชื่อดาว หมายถึง อย่าไว้วางใจใครหรืออะไรจนเกินไป"
+            android:id="@+id/textView173"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฝนทั่งให้เป็นเข็ม หมายถึง เพียรพยายามสุดความสามารถจนกว่าจะสำเร็จผล"
+            android:id="@+id/textView174"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฝนสั่งฟ้า ปลาสั่งหนอง หมายถึง ทำการอันใดที่เป็นสิ่งสำคัญเพื่อไว้อาลัยก่อนจากไป"
+            android:id="@+id/textView175"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฝากปลาย่างไว้กับแมว หมายถึง ไว้วางใจคนที่ไม่ควรไว้วางใจ"
+            android:id="@+id/textView176"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด พ."
+            android:id="@+id/textView177"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เพชรตัดเพชร หมายถึง คนเก่งต่อคนเก่งมาสู้กัน"
+            android:id="@+id/textView178"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แพ้เป็นพระ ชนะเป็นมาร หมายถึง การยอมแพ้ทำให้เรื่องสงบ การไม่ยอมแพ้ทำให้เรื่องไม่สงบ"
+            android:id="@+id/textView179"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แพ้แล้วพาล หมายถึง แพ้ตามกติกาแล้วยังไม่ยอมรับว่าแพ้จะเอาชนะด้วยกำลัง"
+            android:id="@+id/textView180"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แพะรับบาป หมายถึง คนที่รับเคราะห์กรรมแทนผู้อื่น"
+            android:id="@+id/textView181"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="พบไม้งามเมื่อขวานบิ่น หมายถึง พบหญิงสาวที่ต้องใจเมื่อแก่"
+            android:id="@+id/textView182"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="พระมาลัยมาโปรด หมายถึง ผู้ที่มาช่วยเหลือในยามที่กำลังตกทุกข์ได้ทันท่วงที"
+            android:id="@+id/textView183"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="พร้างัดปากไม่ออก หมายถึง นิ่ง, ไม่ค่อยพูด, ไม่ช่างพูด"
+            android:id="@+id/textView184"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="พลอยฟ้าพลอยฝน หมายถึง ไม่ได้เกี่ยวข้องก็เป็นตามไปด้วย"
+            android:id="@+id/textView185"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="พลิกหน้ามือเป็นหลังมือ หมายถึง เปลี่ยนแปลงหรือทำให้ผิดไปจากเดิมอย่างตรงกันข้าม"
+            android:id="@+id/textView186"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="พายเรือให้โจรนั่ง หมายถึง การให้ความสนับสนุนคนไม่ดี"
+            android:id="@+id/textView187"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ฟ."
+            android:id="@+id/textView188"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไฟไหม้ฟาง หมายถึง อารมณ์ที่เกิดขึ้นอย่างวู่วามสักพักหนึ่งแล้วก็หายไป"
+            android:id="@+id/textView189"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไฟสุมขอน หมายถึง อารมณ์ร้อนรุ่มที่คุกรุ่นอยู่ในใจ"
+            android:id="@+id/textView190"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฟังไม่ได้ศัพท์ จับเอามากระเดียด หมายถึง ฟังไม่ได้ความแจ่มชัด แล้วเอาไปพูดต่อหรือทำผิดๆพลาดๆ"
+            android:id="@+id/textView191"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฟังความข้างเดียว หมายถึง รับรู้เรื่องจากฝ่ายเดียวแล้วด่วนตัดสิน"
+            android:id="@+id/textView192"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฟังหูไว้หู หมายถึง รับฟังไว้แต่ไม่เชื่อทั้งหมด"
+            android:id="@+id/textView193"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฟังหูซ้าย ทะลุหูขวา หมายถึง คนที่ไม่ย่อมจะฟังใคร พูดไปคงเปล่าประโยชน์"
+            android:id="@+id/textView194"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฟ้าสูงแผ่นดินต่ำ หมายถึง รู้จักกาละเทศะ รู้ที่สูงที่ต่ำ"
+            android:id="@+id/textView195"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฟ้าหลังฝน หมายถึง สิ่งดีงาม สบายใจ เมื่อผ่านพ้นปัญหาใหญ่"
+            android:id="@+id/textView196"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ฟื้นฝอยหาตะเข็บ หมายถึง การรื้อเอาเรื่องเก่าๆที่แล้วไปแล้ว มาพูดขึ้นให้เป็นที่สะเทือนใจ"
+            android:id="@+id/textView197"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ม."
+            android:id="@+id/textView198"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="แมวเฝ้าปลาย่าง หมายถึง การฝากให้ผู้อื่นเฝ้าสิ่งของที่เขาต้องการอยู่แล้ว ย่อมทำให้สูญเสีย"
+            android:id="@+id/textView199"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไม้เบื่อไม้เมา หมายถึง ขัดกันตะพึดเพราะใจโกรธกันมาก่อน"
+            android:id="@+id/textView200"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไม่เห็นแก่ชี ก็เห็นแก่ผ้าเหลือง หมายถึง ไม่เห็นแก่พระ ก็เห็นแก่ผ้าเหลืองเถิด"
+            android:id="@+id/textView201"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไม่เห็นโลงศพ ไม่หลั่งน้ำตา หมายถึง ไม่เห็นผลลัพธ์ที่น่าสลด ก็จะไม่สำนึกกับการกระทำที่ไม่ดีของตน"
+            android:id="@+id/textView202"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไม่เห็นน้ำตัดกระบอก ไม่เห็นกระรอกโก่งหน้าไม้ หมายถึง ด่วนทำไปทั้งๆ ที่ยังไม่ถึงเวลาอันควร"
+            android:id="@+id/textView203"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไม่เอาถ่าน หมายถึง ไม่เป็นเรื่อง, ไม่ได้ความ, ทำอะไรไม่ถูกเรื่อง"
+            android:id="@+id/textView204"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไม้ใกล้ฝั่ง หมายถึง แก่ใกล้จะตาย"
+            android:id="@+id/textView205"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไม่ได้ด้วยเลห์เอาด้วยกล ไม่ได้ด้วยมนต์เอาด้วยคาถา หมายถึง ทำทุกอย่างเพื่อให้ได้ดังใจ"
+            android:id="@+id/textView206"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไม้ซีกงัดไม้ซุง หมายถึง คนผู้มีฐานะต่ำไปคัดค้านหรือไปก่อความกับผู้มีอำนาจสูงกว่า"
+            android:id="@+id/textView207"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไม่ดูเงาหัว หมายถึง ไม่รู้จักประมาณตน"
+            android:id="@+id/textView208"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ย."
+            android:id="@+id/textView209"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ยกธงขาว หมายถึง ยอมแพ้"
+            android:id="@+id/textView210"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ยกภูเขาออกจากอก หมายถึง โล่งอก หมดวิตกกังวล"
+            android:id="@+id/textView211"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ย้อมแมวขาย หมายถึง การตกแต่งคนหรือของที่ไม่ดีโดยมีเจตนาจะหลอกลวงให้ผู้อื่นเชื่อว่าดี"
+            android:id="@+id/textView212"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ยิงปืนนัดเดียวได้นกสองตัว หมายถึง การทําอย่างเดียวแต่ได้ผล 2 อย่าง"
+            android:id="@+id/textView213"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ยื่นแก้วให้วานร หมายถึง เอาของมีค่าให้กับคนที่ไม่รู้จักค่าของสิ่งนั้น"
+            android:id="@+id/textView214"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ยืมจมูกคนอื่นเขามาหายใจ หมายถึง อาศัยผู้อื่นมักไม่สะดวก"
+            android:id="@+id/textView215"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ยุให้รำ ตำให้รั่ว หมายถึง ยุให้แตกกัน ทำให้ผิดใจกัน"
+            android:id="@+id/textView216"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ยุ่งเหมือนยุงตีกัน หมายถึง ยุ่งเหยิง สับสนปนเปกัน"
+            android:id="@+id/textView217"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ร."
+            android:id="@+id/textView218"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เรือใหญ่คับคลอง หมายถึง คนที่เคยรุ่งเรืองหรือเป็นใหญ่เป็นโต เมื่อตกตํ่าลงก็วางตัวอย่างคนสามัญไม่ได้"
+            android:id="@+id/textView219"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เรือล่มเมื่อจอด หมายถึง คนที่ทําตนเป็นคนดีมาตลอดแต่มาเสียคนเมื่อแก่"
+            android:id="@+id/textView220"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="รอดปากเหยี่ยวปากกา หมายถึง พ้นอันตรายมาได้อย่างหวุดหวิด"
+            android:id="@+id/textView221"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="รักดีหามจั่วรักชั่วหามเสา หมายถึง ใฝ่ดีจะมีความสุขความเจริญ ใฝ่ชั่วจะได้รับความลําบาก"
+            android:id="@+id/textView222"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="รักพี่เสียดายน้อง หมายถึง ความลังเลไม่แน่ใจ ความไม่ปลงใจเลือกสิ่งของที่มีมากกว่าหนึ่ง"
+            android:id="@+id/textView223"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="รักยาวให้บั่น รักสั้นให้ต่อ หมายถึง รักที่จะมีมิตรไมตรีต่อกันต้องตัดสิ่งที่ไม่ดีออก อย่าไปพูดถึง"
+            android:id="@+id/textView224"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="รักวัวให้ผูกรักลูกให้ตี หมายถึง รักสิ่งใดก็ต้องระวังสิ่งนั้นให้ดี อย่าปล่อยตามใจ"
+            android:id="@+id/textView225"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="รำไม่ดีโทษปี่โทษกลอง หมายถึง ทําไม่ดีหรือทําผิดแล้วไม่รับผิด กลับโทษผู้อื่น"
+            android:id="@+id/textView226"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="รีดเลือดกับปู หมายถึง เคี่ยวเข็ญหรือบีบบังคับเอากับผู้ที่ไม่มีจะให้"
+            android:id="@+id/textView227"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="รู้ไว้ใช่ว่า ใส่บ่าแบกหาม หมายถึง เรียนรู้ไว้ไม่หนักเรี่ยวหนักแรงหรือเสียหายอะไร"
+            android:id="@+id/textView228"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ล."
+            android:id="@+id/textView229"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เล่นกับหมาหมาเลียปาก หมายถึง ลดตัวลงไปหรือวางตัวไม่เหมาะสมจึงถูกลามปาม"
+            android:id="@+id/textView230"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เลี้ยงไม่เชื่อง หมายถึง เนรคุณ ไม่สำนึกบุญคุณ"
+            android:id="@+id/textView231"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เลือกที่รักมักที่ชัง หมายถึง ลําเอียง มีอคติ"
+            android:id="@+id/textView232"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เลือดข้นกว่าน้ำ หมายถึง ญาติพี่น้องย่อมดีกว่าคนอื่น"
+            android:id="@+id/textView233"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เลือดขึ้นหน้า หมายถึง โกรธมากจนหน้าแดง โมโหจนขาดสติ"
+            android:id="@+id/textView234"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="โลภมากลาภหาย หมายถึง อยากได้หลายอย่างแต่ในที่สุดไม่ได้สักอย่างเดียว"
+            android:id="@+id/textView235"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ลงเรือลำเดียวกัน หมายถึง ทำงานร่วมกัน ร่วมรับผลการกระทำด้วยกัน"
+            android:id="@+id/textView236"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ล้มหมอนนอนเสื่อ หมายถึง ป่วยจนต้องนอนรักษาตัว"
+            android:id="@+id/textView237"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ล้วงคองูเห่า หมายถึง บังอาจลักขโมยหรือล่อลวงเอาทรัพย์สินเป็นต้นจากผู้ที่น่าเกรงขาม"
+            android:id="@+id/textView238"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ละเลงขนมเบื้องด้วยปาก หมายถึง ดีแต่พูด แต่ทำไม่ได้"
+            android:id="@+id/textView239"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ว."
+            android:id="@+id/textView240"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ไวเหมือนลิง หมายถึง คนที่ทำอะไรก็เร็วไปเสียหมดทุกอย่าง"
+            android:id="@+id/textView241"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="วัดรอยเท้า หมายถึง แข่งดีกับผู้มีอำนาจหรือลบหลู่บุญคุณของผู้มีพระคุณ"
+            android:id="@+id/textView242"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="วันโกนไม่ละวันพระไม่เว้น หมายถึง ทำชั่วได้ตลอดเวลา"
+            android:id="@+id/textView243"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="วันพระไม่ได้มีหนเดียว หมายถึง ครั้งนี้แพ้ ครั้งหน้าจะแก้ตัวหรือแก้แค้น"
+            android:id="@+id/textView244"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="วัวเคยขา ม้าเคยขี่ หมายถึง คนที่เคยคุ้นกันมาอย่างดี รู้ใจกัน"
+            android:id="@+id/textView245"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="วัวเห็นแก่หญ้า ขี้ข้าเห็นแก่กิน หมายถึง คนที่ตะกละตะกลามเห็นแก่กิน"
+            android:id="@+id/textView246"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="วัวแก่กินหญ้าอ่อน หมายถึง ชายแก่ที่มีภรรยาสาวคราวลูกคราวหลาน"
+            android:id="@+id/textView247"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="วัวพันหลัก หมายถึง อาการที่วกหรือย้อนกลับไปหาจุดเริ่มต้น"
+            android:id="@+id/textView248"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="วัวลืมตีน หมายถึง ลืมกำพืดตนเอง"
+            android:id="@+id/textView249"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="วัวสันหลังหวะ หมายถึง คนที่มีความผิดติดตัวทําให้คอยหวาดระแวง"
+            android:id="@+id/textView250"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ศ."
+            android:id="@+id/textView251"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เศรษฐีขาดไฟ หมายถึง คนเรามีวันผิดพลาดกันได้"
+            android:id="@+id/textView252"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ศรศิลป์ไม่กินกัน หมายถึง ไม่ถูกกัน ไม่ลงรอยกัน"
+            android:id="@+id/textView253"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ส."
+            android:id="@+id/textView254"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เส้นผมบังภูเขา หมายถึง เรื่องง่ายๆ แต่คิดไม่ออก"
+            android:id="@+id/textView255"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เสน่ห์ปลายจวัก หมายถึง เสน่ห์ที่เกิดจากฝีมือปรุงอาหารให้โอชา"
+            android:id="@+id/textView256"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เสียน้อยเสียยาก เสียมากเสียง่าย หมายถึง เสียเพียงเล็กน้อยไม่ยอมเสีย ปล่อยให้ลุกลามจนต้องเสียมาก"
+            android:id="@+id/textView257"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เสี้ยมเขาควายให้ชนกัน หมายถึง ยุยงให้เขาเกิดวิวาทบาดหมางกัน"
+            android:id="@+id/textView258"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เสือซ่อนเล็บ หมายถึง คนคมในฝัก เก่งแต่เก็บไว้ไม่โอ้อวด"
+            android:id="@+id/textView259"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เสือนอนกิน หมายถึง ได้รับผลประโยชน์โดยไม่ต้องลงมือทำงาน"
+            android:id="@+id/textView260"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="สมภารกินไก่วัด หมายถึง ผู้ชายที่เป็นหัวหน้ามีอะไรกับผู้หญิงที่เป็นลูกน้อง"
+            android:id="@+id/textView261"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="สร้างวิมานในอากาศ หมายถึง ฝันหรือหวังในสิ่งที่ไม่สามารถจะเป็นความจริงได้"
+            android:id="@+id/textView262"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="สวยแต่รูป จูบไม่หอม หมายถึง ภายนอกดูดี แต่ข้างในนั้นแย่"
+            android:id="@+id/textView263"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="สอนจระเข้ว่ายน้ำ หมายถึง สอนสิ่งที่เขารู้ดีอยู่แล้ว"
+            android:id="@+id/textView264"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด ห."
+            android:id="@+id/textView265"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เหงื่อตกกีบ หมายถึง เหนื่อยมาก"
+            android:id="@+id/textView266"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เห็นกงจักรเป็นดอกบัว หมายถึง การเห็นผิดเป็นชอบ หรือเห็นสิ่งที่ไม่ถูกต้องว่าเป็นสิ่งที่ถูกต้อง"
+            android:id="@+id/textView267"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เห็นขี้ดีกว่าไส้ หมายถึง เห็นคนอื่นดีกว่าญาติพี่น้อง"
+            android:id="@+id/textView268"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เห็นช้างขี้ขี้ตามช้าง หมายถึง การกระทำตนเยี่ยงผู้อื่นที่มีฐานะและความพร้อมมากกว่า"
+            android:id="@+id/textView269"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เหยียบเรือสองแคม หมายถึง ทําทีเข้าด้วยทั้ง 2 ฝ่าย อยู่กับฝ่ายไหน ก็เห็นด้วยหรือแสดงท่าทีเข้าข้างฝ่ายนั้น"
+            android:id="@+id/textView270"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เหยียบขี้ไก่ไม่ฝ่อ หมายถึง คนเหยาะแหยะ ทำอะไรไม่จริงจัง ไม่ทุ่มเท"
+            android:id="@+id/textView271"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ให้ทุกข์แก่ท่าน ทุกข์นั้นถึงตัว หมายถึง ทำให้คนอื่นเดือดร้อน แต่ผลกลับย้อนมาทำให้ตัวเองเดือดร้อนไปด้วย"
+            android:id="@+id/textView272"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หญ้าปากคอก หมายถึง คุ้นเสียจนมองข้ามไป"
+            android:id="@+id/textView273"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หนอนหนังสือ หมายถึง คนที่ชอบอ่านหนังสือเป็นประจำ"
+            android:id="@+id/textView274"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หนักไม่เอา เบาไม่สู้ หมายถึง คนเกียจคร้าน ไม่สู้งาน"
+            android:id="@+id/textView275"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="หมวด อ."
+            android:id="@+id/textView276"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เออออห่อหมก หมายถึง เห็นด้วยหรือพลอยเห็นตามไปด้วย"
+            android:id="@+id/textView277"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เอาเนื้อหนูไปปะเนื้อช้าง หมายถึง อย่าเอาทรัพย์หรือสิ่งของจากคนที่น้อยไป"
+            android:id="@+id/textView278"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เอาใจเขามาใส่ใจเรา หมายถึง รู้จักคิดถึงใจคนอื่น เห็นใจคนอื่น"
+            android:id="@+id/textView279"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เอาจมูกคนอื่นมาหายใจ หมายถึง อาศัยความคิดหรือแรงของคนอื่นมาทำงานให้ตน"
+            android:id="@+id/textView280"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เอาพิมเสนไปแลกกับเกลือ หมายถึง อย่าเอาความดีไปแลกความชั่ว"
+            android:id="@+id/textView281"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เอามะพร้าวห้าวมาขายสวน หมายถึง คนที่รู้เท่าไม่ถึงการณ์หรือโง่เขลา"
+            android:id="@+id/textView282"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เอามือซุกหีบ หมายถึง หาเรื่องเดือดร้อนหรือความลำบากใส่ตัวโดยใช่ที่"
+            android:id="@+id/textView283"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เอาหูไปนาเอาตาไปไร่ หมายถึง แสร้งทำเป็นไม่รู้ไม่เห็น ไม่รับรู้ในสิ่งที่เกิดขึ้น"
+            android:id="@+id/textView284"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="โอละพ่อ หมายถึง กลับตรงกันข้าม อย่างกลับหน้ามือเป็นหลังมือ"
+            android:id="@+id/textView285"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="อกไหม้ไส้ขม หมายถึง เป็นทุกข์อย่างแสนสาหัส"
+            android:id="@+id/textView286"
+            android:layout_gravity="left"
+            android:padding="5dp" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

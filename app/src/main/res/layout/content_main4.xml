@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ounet.thaiidioms.Thai3Activity"
+    android:background="@drawable/b">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:background="@drawable/zw" />
+
+
+        <TextView
+            android:text="1.เก็บเล็กผสมน้อย โน่นบ้างนี่บ้าง จนสําเร็จเป็นรูปเป็นร่างขึ้นมา"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:text="เก็บเบี้ยใต้ถุนร้าน"
+                android:id="@+id/choice1_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="เก็บเล็กผสมน้อย"
+                android:id="@+id/choice1_2" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+
+        <TextView
+            android:text="2.สามีภรรยา บุตรธิดา เพื่อนร่วมงาน หรือคนในบ้าน คิดคดทรยศ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="เกลียดตัวกินไข่ เกลียดปลาไหลกินน้ำแกง"
+                android:id="@+id/choice2_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="เกลือเป็นหนอน"
+                android:id="@+id/choice2_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="3.ให้มีสติอย่าประมาท"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="เข้าเมืองตาหลิ่ว ต้องหลิ่วตาตาม"
+                android:id="@+id/choice3_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="เข้าเถื่อนอย่าลืมพร้า"
+                android:id="@+id/choice3_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="4.หมดทางไป หมดทางที่จะแก้ไข หมดหนทางหากิน"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="เข้าตาจน"
+                android:id="@+id/choice4_1" />
+
+            <RadioButton
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="เข้าตามตรอก ออกทางประตู"
+                android:id="@+id/choice4_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="5.ชายสูงอายุที่ชอบผู้หญิงรุ่นสาว"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="โคแก่ชอบกินหญ้าอ่อน"
+                android:id="@+id/choice5_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="ใครมือยาวสาวได้สาวเอา"
+                android:id="@+id/choice5_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="6.มีสันดานคดโกง"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="คดในข้องอในกระดูก"
+                android:id="@+id/choice6_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="คนดีผีคุ้ม"
+                android:id="@+id/choice6_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+
+
+        <TextView
+            android:text="7.ปากโป้ง, เก็บความลับไม่อยู่, ชอบนำความลับของผู้อื่นไปโพนทะนา"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="ฆ้องปากแตก"
+                android:id="@+id/choice7_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="ฆ่าไม่ตายขายไม่ขาด"
+                android:id="@+id/choice7_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+        android:text="8.ทำการใหญ่ไม่ควรตระหนี่"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sex"
+        android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="ฆ่าควายอย่าเสียดายพริก"
+                android:id="@+id/choice8_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="ฆ่าช้างเอางา"
+                android:id="@+id/choice8_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+
+        <TextView
+            android:text="9.ลักษณะที่เงียบสนิท"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="เงียบเป็นเป่าสาก"
+                android:id="@+id/choice9_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="โง่เง่าเต่าตุ่น "
+                android:id="@+id/choice9_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="10.ทำกิจที่สำเร็จได้ยาก"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="งมเข็มในมหาสมุทร"
+                android:id="@+id/choice10_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="โง่แล้วอยากนอนเตียง"
+                android:id="@+id/choice10_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="11.เจ้าชู้มาก จีบได้ไม่เลือกหน้า"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="เจ้าชู้ประตูดิน"
+                android:id="@+id/choice11_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="ใจจืดใจดำ"
+                android:id="@+id/choice11_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="12.ใจไม่สู้ ยอมแพ้ง่าย"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="ใจซื่อมือสะอาด"
+                android:id="@+id/choice12_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="ใจปลาซิว"
+                android:id="@+id/choice12_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="13.ฉลาดในทางทุจริต ทางไม่ดี"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="ฉ้อราษฎร์บังหลวง"
+                android:id="@+id/choice13_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="ฉลาดแกมโกง"
+                android:id="@+id/choice13_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="14.ปากไม่ดี เก็บความลับไม่อยู่"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="ฉิ่งเสียงแตก"
+                android:id="@+id/choice14_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="ฉลาดแกมโกง"
+                android:id="@+id/choice14_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="15.การลงโทษให้ดูเป็นตัวอย่าง"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="ใช้ไม้นวม"
+                android:id="@+id/choice15_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="เชือดคอไก่ให้ลิงดู"
+                android:id="@+id/choice15_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="16.พูดจาหว่านล้อมยกยอบุญคุณเพื่อขอสิ่งที่ประสงค์"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="ชักแม่น้ำทั้งห้า"
+                android:id="@+id/choice16_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="ใช้ไม้แข็ง"
+                android:id="@+id/choice16_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="17.ความซื่อสัตย์นั้นกินใช้ไม่มีวันหมด มีกินได้เรื่อยๆ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="ซื่อกินไม่หมด คดกินไม่นาน"
+                android:id="@+id/choice17_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="ซื้อง่ายขายคล่อง"
+                android:id="@+id/choice17_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="18.ซื้อของโดยไม่คำนึงถึงช่วงเวลา ย่อมได้ของแพงกว่าปกติ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="ซื่อกินไม่หมด คดกินไม่นาน"
+                android:id="@+id/choice18_1" />
+
+            <RadioButton
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="ซื้อควายหน้านา ซื้อผ้าหน้าตรุษ"
+                android:id="@+id/choice18_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="19.คนแก่หรือคนมีอายุมากที่มีเล่ห์เหลี่ยมหรือกลอุบายหลอกเด็กผู้หญิงในทางกามอารมณ์"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="เฒ่าหัวงู"
+                android:id="@+id/choice19_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="เฒ่าหัวหงอก"
+                android:id="@+id/choice19_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <TextView
+            android:text="20.คนชอบพูดโกหกจนไม่มีใครเชื่อถือ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="เด็กเลี้ยงแกะ"
+                android:id="@+id/choice20_1" />
+
+            <RadioButton
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="เด็กเลี้ยงแพะ"
+                android:id="@+id/choice20_2" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"></FrameLayout>
+        </RadioGroup>
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="51dp"
+            android:id="@+id/ok_button"
+            android:text="ยืนยัน"
+            android:layout_weight="0.08"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
